@@ -1,0 +1,29 @@
+h1 {
+    color: darkgreen;
+}
+
+.header-text {
+    font-family: "Georgia";
+    text-align: center;
+}
+
+body > p {
+    line-height: 25px;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    float: left;
+    padding: 25px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#suggestion-title {
+    text-transform: uppercase;
+}
