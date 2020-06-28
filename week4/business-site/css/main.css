@@ -1,0 +1,78 @@
+@import './cards.css';
+@import './utilities.css';
+@import './navigation.css';
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    color: #1F2933;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url('../img/hero-dots.png');
+    background-position: top right;
+    min-height: 40vh;
+    border-bottom: 3px solid rgba(31, 41, 51, 0.2);
+}
+
+.stats {
+    background-image: url('../img/squares.png');
+    background-position: top right;
+}
+
+div.cards-container {
+    height: 175px;
+}
+
+table {
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th, td {
+    padding: 20px;
+    border: 1px dotted rgba(0,0,0,0.3);
+}
+
+.cta /* call-to-action */ {
+    display: inline-block;
+    width: 100%;
+}
+
+.cta h2 {
+    margin-top: 0;
+    padding-left: 10px;
+    border-left: 4px solid #0B69A3;
+}
+
+aside > button {
+    padding: 16px;
+    border-radius: 9999px;
+    background: linear-gradient(to bottom right, #81DEFD, #40C3F7);
+    border: none;
+    color: #1F2933;
+}
+.cta > div,aside {
+    width: 50%;
+    float: left;
+}
+
+footer {
+    margin-top: 15vh;
+}
+
+footer > p {
+    color: #616E7C;
+}
+
+hr {
+    padding: 0px !important;
+    width: 60px;
+    border: 2px solid #0B69A3;
+}
