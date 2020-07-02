@@ -1,0 +1,39 @@
+#grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 15px;
+}
+
+.box {
+    height: 150px;
+}
+
+.light-pink {
+    background-color: #F5C6D6;
+    grid-column: auto / span 4;
+}
+
+.pink {
+    background-color: #EE2E84;
+}
+
+.blue {
+    background-color: #85CFD8;
+    grid-column: auto / span 2;
+}
+
+.green {
+    background-color: #8DC63F;
+    grid-column: auto / span 3;
+}
+
+.orange {
+    background-color: #E76E34;
+    grid-column: auto / span 1;
+}
+
+@media only screen and (max-width: 768px) {
+    .pink, .orange, .blue, .green, .light-pink {
+        grid-column: auto / span 4;
+    }
+}
