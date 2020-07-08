@@ -1,0 +1,93 @@
+#grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 300px);
+    gap: 15px;
+    margin: 100px;
+}
+.box {
+    transform: scale(1);
+}
+.box:hover {
+    transform: scale(1.2);
+    z-index: 2;
+}
+
+#box1 {
+    background-color: red;
+    transition: background-color 0.3s linear, 
+    transform 0.6s ease, 
+    box-shadow 0.3s ease-in;
+}
+
+#box1:hover {
+    background-color: orange;
+    box-shadow: 10px 10px;
+    opacity: 20%;
+}
+
+#box2 {
+    background-color: yellow;
+    transition: background-color 0.3s linear,
+    transform 0.6s ease, border 2.3s ease,
+    border-radius 1s linear;
+}
+
+#box2:hover {
+    background-color: green;
+    border-bottom: 100px solid blue;
+    border-top-right-radius: 50%;
+}
+
+#box3 {
+    background-color: blue;
+    transition: background-color 0.3s ease-out, 
+    transform 0.6s ease,
+    border-radius 1.2s ease-in-out,
+    border-left 2s linear;
+}
+
+#box3:hover {
+    background-color: indigo;
+    border-bottom-left-radius: 50%;
+    border-left: 20px solid firebrick;
+}
+
+#box4 {
+    background-color: violet;
+    transition: all 2s ease;
+}
+
+#box4:hover {
+    background-color: red;
+    border-radius: 9999px;
+    border-top: 150px dotted gold;
+}
+
+#box5 {
+    background-color: orange;
+    transition: background-color 0.3s ease-in, 
+    transform 0.6s ease,
+    border 1s linear,
+    border-top-left-radius 3s linear;
+}
+
+#box5:hover {
+    background-color: yellow;
+    border: 30px solid red;
+    border-top-left-radius: 50px;
+}
+
+#box6 {
+    background-color: green;
+    transition: background-color 0.3s ease, 
+    transform 0.6s ease,
+    box-shadow 1s ease-in-out,
+    border 300ms linear;
+}
+
+#box6:hover {
+    background-color: blue;
+    box-shadow: 5px 10px 30px;
+    border: 15px solid white;
+}
