@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CoffeeCode</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=Arvo&family=Montserrat&display=swap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/main.css" />
+    </head>
+    <body>
+
+        <header>
+        <div class="nav-container">
+            <nav class="topnav" id="navigation">
+                <a href="index.html" class="logo-nav"><i class="fa fa-code"></i> CoffeeCode</a>
+                <a href="index.html" class="active">Home</a>
+                <a href="gallery.html">Gallery</a>
+                <a href="contact.html">Contact</a>
+                <a href="javascript:void(0);" class="icon" onclick="toggleNav()"><i class="fa fa-bars"></i></a>
+            </nav>
+        </div>
+        </header>
+
+        <main class="grid-12">
+            
+            <div class="hero">
+                <h1 class="title tc">Hello World.</h1>
+                <h1 class="title tc title-sub">Need a cup to get started?</h1>
+            </div>
+           
+            <h1 class="title tc mt-2 d-block grid-3-11">Hear What Our Clients Say!</h1>
+            <hr class="mb-3" />
+            <div class="grid-container mb-8" id="testimonials">
+            
+                <div>
+                    <img src="https://images.unsplash.com/flagged/photo-1570612861542-284f4c12e75f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=200&h=200&q=80" alt="Client Picture" />
+                   <h1 class="tc">Daniel Planken</h1> 
+                   <p>"I'm an aspiring artist of code. I need something extra to wake me up in the mornings."</p>
+                </div>
+
+                <div>
+                    <img src="https://images.unsplash.com/photo-1569931727733-7fe2e67afe1f?ixlib=rb-1.2.1&auto=format&fit=crop&w=200&h=200&q=80" alt="Client Picture" />
+                   <h1 class="tc">Jake Colensteni</h1> 
+                   <p>"Words? No. The Coffee is too good for that."</p>
+                </div>
+
+                <div>
+                    <img src="https://images.unsplash.com/photo-1544723795-3fb6469f5b39?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=200&h=200&q=80" alt="Client Picture" />
+                   <h1 class="tc">Austin Daniels</h1> 
+                   <p>"Now I can pull overnight coding! This coffee makes it easy to pull all-night developer sessions!"</p>
+                </div>
+
+                <div>
+                    <img src="https://images.unsplash.com/photo-1554151228-14d9def656e4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=200&h=200&q=80" alt="Client Picture" />
+                   <h1 class="tc">Samantha Chapman</h1> 
+                   <p>"Before I begin developing, I like to sit down and look out a window while drinking coffee."</p>
+                </div>
+
+            </div>
+
+            <div class="grid-1-13 tc mt-4">
+                <h1 class="title">Our Amazing New Coffee: StarCode</h1>
+                <hr>
+                <div class="grid-2">
+                    <div class="grid-1-2"><img class="mt-2" src="https://images.unsplash.com/photo-1544486864-3087e2e20d91?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80" alt="" /></div>
+                    <div class="grid-1-2">
+                        <div class="star-container mt-2 pb-5">
+                            <h1>Reach for the stars!</h1>
+                            <p>With our StarCode cofee, you will feel more energized and ready to start your morning while you code!
+                                If it is not what you are looking for, you can even get your money back! We're that confident!
+                            </p>
+                            <h3>Why is it so good?</h3>
+                            <a class="btn" href="contact.html">
+                                <p>Find Out Today</p>
+                            </a>
+                            </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="grid-1-13 mt-4">
+                <h1 class="title tc">Our Pricing!</h1>
+                <h3 class="tc">See how affordable we are.</h3>
+                <hr class="mb-1"/>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Coffee Name</th>
+                            <th>Brew Type</th>
+                            <th>Serving Size</th>
+                            <th>Price</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>StarCode</td>
+                            <td>Strong</td>
+                            <td>12<span class="oz">oz</span></td>
+                            <td>$3.99 /cup</td>
+                        </tr>
+
+                        <tr>
+                            <td>"DRY" Coffee</td>
+                            <td>Medium</td>
+                            <td>8<span class="oz">oz</span></td>
+                            <td>$2.99 /cup</td>
+                        </tr>
+
+                        <tr>
+                            <td>Power Cup</td>
+                            <td>Light</td>
+                            <td>12<span class="oz">oz</span></td>
+                            <td>$5.99 /cup</td>
+                        </tr>
+
+                        <tr>
+                            <td>Plain</td>
+                            <td>Strong</td>
+                            <td>8<span class="oz">oz</span></td>
+                            <td>$1.99 /cup</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="grid-1-13 mt-4 d-gallery">
+                <img src="https://images.unsplash.com/photo-1475552113915-6fcb52652ba2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=350&h=200&q=80" alt="Girl Drinking Coffee" />
+                <img src="https://images.unsplash.com/photo-1516031068-d61e87663edc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=350&h=200&q=80" alt="Girl Drinking Coffee" />
+                <img src="https://images.unsplash.com/photo-1469578418624-bef0479fe7c8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=350&h=200&q=80" alt="Girl Drinking Coffee" />
+            </div>
+
+        </main>
+       
+        <footer class="grid-12 col-white tc">
+            <div class="grid-auto-4">
+                <h4>Navigation</h4>
+                <p><a href="index.html" class="col-white">Home</a></p>
+                <p><a href="gallery.html" class="col-white">Gallery</a></p>
+                <p><a href="contact.html" class="col-white">Contact</a></p>
+            </div>
+            <div class="grid-auto-4">
+                <h4>Careers</h4>
+                <p>We're not hiring right now, but we will be soon!</p>
+            </div>
+            <div class="grid-auto-4" id="mission">
+                <h4>Our Mission</h4>
+                <p>To create a coffee that even developers can not deny. To ensure that hard work becomes as easy as drinking our coffee.</p>
+            </div>
+            <div class="grid-1-13"><p class="col-white tc">&copy; CodeCoffee 2020</p></div>
+        </footer>
+       
+        <script src="js/navigation.js"></script>
+    </body>
+</html>

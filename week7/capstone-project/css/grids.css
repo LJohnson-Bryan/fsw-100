@@ -1,0 +1,66 @@
+/* General Styles */
+
+.grid-12 {
+    display: grid;
+    grid-template: repeat(12, 1fr);
+}
+
+.grid-4 {
+    display: grid;
+    grid-template: repeat(4, 1fr);
+}
+
+.grid-2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 100%;
+}
+
+@media only screen and (max-width: 850px) {
+   .grid-2 {
+    grid-template-columns: auto;
+   }
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat( auto-fit, minmax(300px, 1fr) );
+}
+
+/* General Positioning */
+
+.grid-1-2 {
+    grid-column: auto / span 1;
+}
+
+.grid-3-11 {
+    grid-column: 3 / 11;
+}
+
+.grid-auto-4 {
+    grid-column: auto / span 4;
+}
+
+@media only screen and (max-width: 800px) {
+    .grid-auto-4 {
+        grid-column: 1 / span 12;
+    }
+    #mission {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+.grid-1-13 {
+    grid-column: 1 / 13;
+}
+
+/* Specific Positioning */
+
+#testimonials {
+    grid-column: 1 / span 12;
+}
+
+.grid-container > h1, hr {
+    grid-column: 1 / span 12;
+}

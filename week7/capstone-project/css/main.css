@@ -1,0 +1,24 @@
+@import './navigation.css';
+@import './features.css';
+@import './utilities.css';
+@import './grids.css';
+
+html, body {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #efd4b8;
+    max-width: 100vw;
+}
+
+footer {
+    background-color: #27241D;
+    padding: 60px 0px;
+}
+
+main {
+max-width: 100%;
+}
+
+
